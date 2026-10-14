@@ -1,0 +1,28 @@
+# CMake build directories
+build/
+out/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Compiled binaries (якщо не хочеш зберігати DLL/LIB у репо)
+# Розкоментуй, якщо НЕ хочеш зберігати бінарники:
+# *.dll
+# *.lib
+# *.exe
+# *.obj
+# *.pdb
+# *.exp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
